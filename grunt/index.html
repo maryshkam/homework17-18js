@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>plugin</title>
+
+	<!-- <link rel="stylesheet" href="src/css/style.css"> -->
+	<link rel="stylesheet" href="dist/css/main.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="src/js/slider.js"></script>
+    
+    <script src="src/js/template.js"></script>
+    <script src="src/js/script.js"></script> -->
+    <script src="dist/js/script.main.min.js"></script>
+</head>
+<body>
+	<div class="carousel">
+		<ul class="carousel__list">
+		    <li class="carousel__element"><img src="src/img/img1.jpg"><p>Ferret</p></li>
+		    <li class="carousel__element"><img src="src/img/img2.jpg"><p>Hedgehog</p></li>
+		    <li class="carousel__element"><img src="src/img/img3.jpg"><p>Squirrel</p></li>
+		    <li class="carousel__element"><img src="src/img/img4.jpg"><p>Tiger</p></li>
+		    <li class="carousel__element"><img src="src/img/img5.jpg"><p>Raccoon</p></li>	    	    
+		</ul>
+		<div class="arrow left-arrow">&laquo;</div>
+        <div class="arrow right-arrow">&raquo;</div>
+	</div>
+
+	<!-- template -->
+
+	<script type="text/template" id="test">
+		<div class="wrapper">
+			<h1 class="top"><%= head %></h1>
+			<p class="par"><%= text %></p>
+            <h3 class="sub-head"><%= titel %></h3>
+            <ul>
+                <li class="item"><%= li1 %></li>
+                <li class="item"><%= li2 %></li>
+                <li class="item"><%= li3 %></li>
+                <li class="item"><%= li4 %></li>
+                <li class="item"><%= li5 %></li>
+            </ul>
+            <p class="par"><%= text2 %></p>
+		</div>
+	</script>
+</body>
+</html>
